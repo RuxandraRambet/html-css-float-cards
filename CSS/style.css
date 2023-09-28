@@ -9,14 +9,52 @@ body {
 header {
     margin-top: 40px;
     margin-bottom: 50px;
+    text-align: center;
 }
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
 }
 h1 {
     margin-bottom: 60px;
     color: #e53170;
     font-family: 'Fredoka', sans-serif;
+}
+.team > .team-member{
+    width: calc(100% / 3 - 60px);
+    margin: 30px;
+    background-color: #0f0e17;
+    float: left; 
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.team-member-img {
+    width: 100px;
+}
+.team-member-img img {
+    width: 100%;
+    display: block;
+    float: left;
+}
+.team-member-info {
+    width: calc(100% - 100px);
+    float: left;
+    padding: 15px;
+}
+.team-member-info .name {
+    color: white;
+    font-weight: bold;
+}
+.team-member-info .role {
+    color: white;
+    font-size: 12px;
+}
+.team-member-info a{
+    color: #55ccf2;
+    font-size: 12px;
+    text-decoration: none;
 }
