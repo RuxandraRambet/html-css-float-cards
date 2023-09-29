@@ -21,10 +21,11 @@ h1 {
     font-family: 'Fredoka', sans-serif;
 }
 .team > .team-member{
-    width: calc(100% / 3 - 60px);
-    margin: 30px;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
     background-color: #0f0e17;
     float: left; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2) ;
 }
 .clearfix::after {
     content: "";
